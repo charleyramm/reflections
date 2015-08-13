@@ -1,0 +1,35 @@
+
+I am learning about how to run 'diff -u' on two
+files to discover what changes have been made between versions.
+ How did viewing a diff between two versions of a file help you sse the
+bug that was introduced?
+ I was able to quickly find out which line a typo was on in a 1000+ line file.
+ How could having easy access to the entire history of a file make you a
+more efficent programmer in the long term?
+ I would be easily able to pinpoint problems and revert to earlier
+versions of a file which otherwise would be lost and recreated or
+abandoned. git log git diff hash1 hash2
+n
+What do you think are the pros and cons of manually choosing when to
+create a commit, like you do in Git, vs having versions automatically
+saved, like Google Docs does?
+If changes are saved automatically then I am not able to make a mistake and forget to commit my changes. I will always have some history to fall back on and work with. If my changes are commited at arbitrary times I risk storing a nonfunctional version.
+If changes are stored manually I risk forgetting to commit my changes at all and I may lose work or information over time. I am likely to commit working and coherent versions when I do make commits. I am less likely to make commits as the barrier-to-entry is higher than normal saving.
+I think commit-on-save would be a reasonable compromise for me. I would be happy to label my commits later or not at all. I don't care about commit messages so long as I can see what files were affected.
+
+git log
+
+How can you use the commands git log and git diff to view the history of
+files?
+git log shows the history of all commits with the most recent
+first (top). git diff shows the changes between any two versions
+(commits) identified by their unique hash ids.
+
+How might using version control make you more confident to make changes
+that could break something? I know that if I store my changes using git
+I will be able to checkout a working previous version, and identify the
+exact commit and line where the breaking-change occurred.
+
+Now that you have your workspace set up, what do you want to try using git for?
+I would like to configure git to store revisions of my ... cairnie theme development.
+I would especially like to try setting up commit-on-save or learning shortcuts for committing.
