@@ -1,0 +1,56 @@
+Most recent commit for Pappa Rauqua
+fa4c6bade4970c282b3870ad16f1bde8164663a9
+
+git diff 71d52709ddc4066e7a79a1d0a412e43429a0cdeb 547f4171a82ec6429d002c1acef357aec41d3f17
+
+This file is in a git repository but the changes have n't been committed.
+I have uncommitted changes in this file but I don't know how to commit them.
+
+I am getting the hang of this. But why is there nothing to commit?
+I have made changes to a file in the repository. Git-Plus says there is nothing to commit.
+
+This is not really behaving like I would hope. I don't think it's a bug ...
+but why isn't git-plus in atom core if it is stable?
+
+"Nothing to commit."
+
+"Nothing to commit!" Why is there nothing to commit?
+I haven't added the file? But I just did
+Why is there nothing to commit?
+Git-plus is broken ... possible
+Why is there nothing to commit?
+My changes are not saved to the file... but they are saved!
+
+It works after I add the file then commit.
+But I should only have to add the file once, then I just save and commit!
+FUUUUU!
+
+"Nothing to commit."
+
+Maybe it is doing commit on save?
+But the changes don't appear in git log.
+
+"Nothing to commit"
+
+charlesramm (master +) reflections $ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   lesson_2_reflections.txt
+
+
+  charlesramm (master *+) reflections $ git commit -am "fuck it all"
+  [master 8af6e54] fuck it all
+   1 file changed, 25 insertions(+)
+  charlesramm (master) reflections $
+
+Now is there something to commit? no
+
+Maybe I don't know how to use git
+Maybe I forgot to save?
+
+now I know how to commit with a keyboard shortcut! It only took me
+... 54 lines! amazing.
+
+Now I should learn the difference between commit, add, commit -a and "commit -a ."
