@@ -1,0 +1,88 @@
+git checkout master 
+: to return to the ... most newest commit
+
+How can you use the staging area to make sure you have one commit per 
+logical change? - if many changes are made at once in different files it 
+may be possible to break them down in to logical commits by committing 
+one or more files at a time.
+
+labels for commits are called branches
+the main branch is called MASTER
+
+git branch easy-mode
+: creates a branch (head) called easy-mode
+
+
+What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+
+- since a branch is a label for a commit, I could use it to indicate 
+ that a commit is fully functional and stable enough to be released.
+
+- the given example was creating a modified, experimental branch of the 
+repository.
+
+- branches are good for working on different things 
+
+git checkout coins
+
+each commit knows about its parent
+this is how git log knows which commits to show you - ancestors.
+
+commits can be lost if they ... are not parents of any BRANCH commit
+
+git checkout -b new_branch_name
+
+git branch (list branches)
+git merge * * 
+git show id (diff since parent)
+git merge --abort
+git branch -d coins
+
+git log --branch --oneline
+
+What is the result of merging two branches together? Why do we represent 
+it in the diagram the way we do? 
+
+- The diagram shows that branches have a different ancestry of parent 
+commits leading back to a parent commit at the point where the branch 
+was started on the main branch (or another branch presumably).
+
+- When we merge two branches changes are compared from at least three 
+different commits to determine whether lines actually added, removed 
+etc. If Jane added a line in her branch, it will be merged. If bob 
+removed a line in his branch it will not be merged. To determine whether 
+lines were added or removed from the branch we need the common ancestor 
+commit which the two branches share.
+
+Merge conflicts are indicated in the files affected by a series or <<<< 
+or ==== or >>>>. To resolve the conflict we need to edit the file and decide
+which version, wrapped in these markers, is the one we want, or create a 
+hybrid version of these lines.
+
+Moving code in to a function is a common way to make code more readable.
+Sarah moved the code that controlled an asteroid breaking in to fragments 
+into a function 'breakIntoFragments()'. This caused a merge conflict because
+the same code had been modified to decrease the difficulty by creating 2 
+roids instead of 3 in the easy-mode branch.
+
+* What are the pros and cons of Git’s automatic merging vs. always doing 
+merges manually?
+
+With automatic merging we can merge more often and more easily. The easier it 
+is to merge, the more often we can afford to do it. The more often we merge 
+the easier conflicts will be to resolve as they will be simpler and require 
+knowledge that we already have as we have just been working on those areas.
+
+If two people work independently on similar areas of the same code, lots of 
+conflicts will arise. If we merge reqularly the conflicts will be made known
+earlier and resolved more easily.
+
+The staging area is a really helpful tool which can assist in committing 
+changes that are related, and untangling many unrelated changes that haven't
+been committed yet. 
+
+
+
+
+
