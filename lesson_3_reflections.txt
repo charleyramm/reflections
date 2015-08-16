@@ -1,0 +1,11 @@
+git remote
+shows one remote called 'origin' already so I can't do 
+git remote add origin https://github.com/charleyramm/reflections.git
+
+This isn't mentioned in the course video at 
+https://www.udacity.com/course/viewer#!/c-ud775/l-3105028581/e-3073678893/m-3073678894
+
+Oh - I was in the asteroids directory.
+...
+git push origin master
+
