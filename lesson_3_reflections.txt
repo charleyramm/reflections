@@ -9,3 +9,10 @@ Oh - I was in the asteroids directory.
 ...
 git push origin master
 
+* When would you want to use a remote repository rather than keeping all your work local?
+
+A remote repository might be good for sharing work with others, working collaboratively, or pushing to a live server.
+
+
+
+
