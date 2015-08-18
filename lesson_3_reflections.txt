@@ -22,3 +22,24 @@ Git automatically stay up-to-date with your remote repository?
 - I'm a rough tough rough ridin cowboy.
 - I want my code to stand still while I edit it, yeahaw!
 
+* Describe the differences between forks, clones, and branches. When 
+would you use one instead of another?
+
+- A fork is githubs method of cloning repositories and crediting the 
+original author. It is sometimes a convenient way of quickly sharing 
+changes to a codebase without requiring authorisation to change the 
+original.
+
+- clone is Gits way of creating a copy of an entire repo including its 
+commit history. It also sets up a remote called origin automatically. 
+When I am going to work independently on a codebase I will clone it to 
+my own machine. Later my changes can be pushed or pulled back to the 
+'origin' repository. If my changes are out of sync I can pull the latest 
+version and merge them locally before pushing to origin.
+
+- Branches are labels for commits. When you checkout a branch it becomes 
+the HEAD commit and new commits will have it as a parent. Branches are 
+good for separating different coding efforts. I might keep my 
+experiments in separate branches so that I can freely change the code 
+without fear of breaking the master branch.
+
