@@ -13,6 +13,12 @@ git push origin master
 
 A remote repository might be good for sharing work with others, working collaboratively, or pushing to a live server.
 
+git pull origin master
 
+* Why might you want to always pull changes manually rather than having 
+Git automatically stay up-to-date with your remote repository?
 
+- I might be working on the branch and not ready to merge somebody elses changes.
+- I'm a rough tough rough ridin cowboy.
+- I want my code to stand still while I edit it, yeahaw!
 
