@@ -43,3 +43,23 @@ good for separating different coding efforts. I might keep my
 experiments in separate branches so that I can freely change the code 
 without fear of breaking the master branch.
 
+* How would you collaborate without using Git or GitHub? What would be 
+easier, and what would be harder?
+
+- I could maintain local versions and manually merge changes. I could use
+diff to send changes against a known version. I could simply email my 
+updated files to somebody. ... simply
+
+- Git has a steep learning curve, and I have only just gotten to know it 
+well enough to realise that it can make a fundamental difference to the 
+way I code and solve problems. I don't know of another technology that 
+does the same thing as well as git does it, perhaps Mercurial?
+
+- I once used CVS and SVN but I never really used them to manage a project
+as the learning curve was too steep and non obvious. I wasn't aware of the 
+possible benefits. 
+
+- Linus's involvement in Git was inspiring and his presentations at Google
+etc. convinced me that I needed to try it out in a serious way.
+
+
